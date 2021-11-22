@@ -12,3 +12,7 @@ Kafka
 
 `kafka-topics.sh --list --zookeeper zookeeper:2181`{{execute}}
 
+`exit`{{execute}}
+
+`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1`{{execute}}
+
