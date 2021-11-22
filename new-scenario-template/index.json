@@ -20,7 +20,7 @@
     ],
     "assets": {
       "host01": [
-          {"file": "docker-compose.yml", "target": "/usr/local/bin/", "chmod": "+x"}
+          {"file": "docker-compose.yml", "target": "/sirmaxwill/local/bin/"}
       ]
   },
     "intro": {
