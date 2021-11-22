@@ -20,7 +20,7 @@
     ],
     "assets": {
       "host01": [
-          {"file": "docker-compose.yml", "target": "/usr/local/bin/"}
+          {"file": "docker-compose.yml", "target": "/root"}
       ]
   },
     "intro": {
