@@ -18,6 +18,11 @@
         "text": "step3.md"
       }
     ],
+    "assets": {
+      "host01": [
+          {"file": "docker-compose.yml", "target": "/usr/local/bin/"}
+      ]
+  },
     "intro": {
       "text": "intro.md",
       "code": "foreground.sh"
