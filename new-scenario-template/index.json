@@ -20,7 +20,7 @@
     ],
     "assets": {
       "host01": [
-          {"file": "docker-compose.yml", "target": "/sirmaxwill/local/bin/"}
+          {"file": "docker-compose.yml", "target": "/usr/local/bin/"}
       ]
   },
     "intro": {
