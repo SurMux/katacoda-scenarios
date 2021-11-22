@@ -1,8 +1,14 @@
 # Heading for Step 2
 
-This is some text.
+Kafka
 
-Here's a single line of runnable code:
+`docker exec -it kafka /bin/sh`{{execute}}
 
-`printf 'Jello, world!\n\n'`{{execute}}
+`cd /opt/kafka/bin`{{execute}}
+
+`kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dwh_kafka_topic_1`{{execute}}
+
+`kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dwh_kafka_topic_2`{{execute}}
+
+`kafka-topics.sh --list --zookeeper zookeeper:2181`{{execute}}
 
