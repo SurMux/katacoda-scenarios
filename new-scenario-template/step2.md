@@ -14,5 +14,5 @@ Kafka
 
 `exit`{{execute}}
 
-`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1`{{execute}}
+`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --from-beginning`{{execute}}
 

@@ -1,8 +1,16 @@
 # Heading for Step 3
 
-This is some text.
+Python
 
-Here's a single line of runnable code:
+`python3 -m pip install kafka-python`{{execute}}
 
-`printf 'Cello, world!\n\n'`{{execute}}
+`touch random_data.py`{{execute}}
+
+`touch producer.py`{{execute}}
+
+`touch consumer.py`{{execute}}
+
+`ls`{{execute}}
+
+
 
