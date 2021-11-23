@@ -7,7 +7,7 @@ import time
 import json
 import random
 from datetime import datetime
-from data import generate
+from random_data import generate
 from kafka import KafkaProducer
 </pre>
 
