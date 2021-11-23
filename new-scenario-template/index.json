@@ -44,7 +44,7 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "editor-terminal", "uisettings": "python"
   },
   "backend": {
     "imageid": "ubuntu:2004"
