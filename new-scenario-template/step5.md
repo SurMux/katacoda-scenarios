@@ -11,7 +11,7 @@ from data import generate
 from kafka import KafkaProducer
 </pre>
 
-<pre class="file" data-filename="producer.py" data-target="replace">
+<pre class="file" data-filename="producer.py" data-target="append">
 
 def serializer(data):
     return json.dumps(data).encode('utf-8')
@@ -23,7 +23,7 @@ producer = KafkaProducer(
 
 </pre>
 
-<pre class="file" data-filename="producer.py" data-target="replace">
+<pre class="file" data-filename="producer.py" data-target="append">
 
 topics = ["dwh_kafka_topic_1", "dwh_kafka_topic_2"]
 
