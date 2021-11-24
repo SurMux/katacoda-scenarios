@@ -11,6 +11,22 @@ from kafka import KafkaConsumer, consumer
 
 if __name__ == '__main__':
 
- 
+     consumer1 = KafkaConsumer(
+        'dwh_kafka_topic_1',
+        bootstrap_servers = 'localhost:9092',
+        auto_offset_reset = 'earliest'
+    )
+
+    consumer2 = KafkaConsumer(
+        'dwh_kafka_topic_2',
+        bootstrap_servers = 'localhost:9092',
+        auto_offset_reset = 'earliest'
+    )
+    
+    for data in consumer1:
+        print(json.loads(data.value)) 
+
+    #for data in consumer2:
+        #print(json.loads(data.value))
 
 </pre>
