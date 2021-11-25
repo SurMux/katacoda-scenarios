@@ -11,15 +11,13 @@ from kafka import KafkaConsumer, consumer
 
 if __name__ == '__main__':
 
-     consumer1 = KafkaConsumer(
-        'dwh_kafka_topic_1',
+    consumer2 = KafkaConsumer(
+        'dwh_kafka_topic_2',
         bootstrap_servers = 'localhost:9092',
         auto_offset_reset = 'earliest'
     )
-
-    dwh_kafka_topic_1_part = TopicPartition(topic, 0)
     
-    for data in dwh_kafka_topic_1_part:
+    for data in consumer2:
         print(json.loads(data.value)) 
 
 </pre>

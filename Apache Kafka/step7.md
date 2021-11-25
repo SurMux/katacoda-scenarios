@@ -16,11 +16,9 @@
 
 `docker exec -it kafka /bin/sh`{{execute T2}}
 
-`docker exec -it kafka /bin/sh`{{execute T2}}
-
 `cd /opt/kafka/bin`{{execute T2}}
 
-`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_2 --from-beginning`{{execute T2}}
+`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --partition 1`{{execute T2}}
 
 `^C`{{execute ctrl-seq T2}}
 
