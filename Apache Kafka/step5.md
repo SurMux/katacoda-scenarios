@@ -1,5 +1,3 @@
-# Producer
-
 Auch hier zuerst die Datei erstellen.
 
 `touch producer.py`{{execute}}
@@ -37,7 +35,7 @@ producer = KafkaProducer(
 
 Die main-Methode generiert und sendet die Daten eigentlich nur jede 3 Sekunden an den Empfänger.
 Der restliche Code dient zur zufälligen Bestimmung des Empfängers, um eine Abwechsulng zu schaffen.
-Die Daten werden entweder an eine bestimmte Partition aus dem ersten Topic gesendet oder einfach an das zweite Topic. 
+Die Daten werden entweder an eine bestimmte Partition aus dem ersten Topic gesendet oder einfach an das zweite Topic. [5]
 
 <pre class="file" data-filename="producer.py" data-target="append">
 

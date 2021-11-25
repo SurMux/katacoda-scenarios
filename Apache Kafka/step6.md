@@ -18,7 +18,7 @@ import json
 from kafka import KafkaConsumer, consumer
 </pre>
 
-Die main-Methode legt den Consumer unter Angabe des Topics an. Anschließend sollen alle bereits gesammelten und die noch ankommenden Daten auf dem Terminal ausgegeben werden.
+Die main-Methode legt den Consumer unter Angabe des Topics an. Anschließend sollen alle bereits gesammelten und die noch ankommenden Daten auf dem Terminal ausgegeben werden. [5]
 
 <pre class="file" data-filename="consumer.py" data-target="append">
 
@@ -34,5 +34,3 @@ if __name__ == '__main__':
         print(json.loads(data.value)) 
 
 </pre>
-
-`ls`{{execute}}
