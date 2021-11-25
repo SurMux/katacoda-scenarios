@@ -6,7 +6,7 @@ Apache Kafka ist eine kostenfreie Software zur Speicherung und Verarbeitung von 
 
 Daten in jeglicher Form werden an ein oder an mehrere sogenannte Topics gesendet. Diese Topics sind vergleichbar mit voneinander getrennte Datenbanken, die lediglich für die Aufnahme und Speicherung von Daten zuständig sind. Jedes einzelne Topic befindet sich allerdings im selben Kafka Cluster.
 
-![Kafka Architektur](./assets/kafka-arch.png)
+![Kafka Architektur](./assets/kafka-arch1.png)
 
 Die Abbildung stellt den Datenfluss ausgehend vom sogenannten Producer, über die Topics, bis zum Consumer dar.
 Kafka stellt noch weitere Funktionalitäten bereit, jedoch ist das Ziel dieses Szenarios genau diesen Datenfluss herzustellen.
