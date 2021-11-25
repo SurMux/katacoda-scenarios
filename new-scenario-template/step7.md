@@ -12,6 +12,8 @@
 
 `exit`{{execute ctrl-seq T1}}
 2
+`printf 'Öffne Terminal 2'`{{execute T2}}
+
 `docker exec -it kafka /bin/sh`{{execute T2}}
 
 `docker exec -it kafka /bin/sh`{{execute T2}}
@@ -24,10 +26,14 @@
 
 `exit`{{execute ctrl-seq T2}}
 3
+`printf 'Öffne Terminal 3'`{{execute T3}}
+
 `python3 consumer.py`{{execute T3}}
 
 `^C`{{execute ctrl-seq}}
 4
+`printf 'Öffne Terminal 4'`{{execute T4}}
+
 `python3 producer.py`{{execute T4}}
 
 `^C`{{execute ctrl-seq}}
