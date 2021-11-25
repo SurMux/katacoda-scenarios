@@ -18,3 +18,8 @@ Die Consumer sind die letzte Instanz des Data Streams. Wenn Daten benötigt werd
 
 ![Apache Kafka Consumer[1]](./assets/consumer.png)
 
+Consumer können zusätzlich die Rolle eines Producers übernehmen, wenn geladene Daten verarbeitet und an andere Partitionen versendet werden. Dieses Szenario bezieht sich allerdings auf das einfache Laden von Daten, ohne diese an weitere Empfänger zu versenden.
+
+Wie bereits im Bild zu sehen, können mehrere Consumer gleichzeitig auf das selbe Topic zugreifen. Es spielt keine Rolle, ob sie auf unterschiedliche oder auf die identischen Partitionen zugreifen.
+
+Wenn der Ausmaß des Datenstroms eines Topics aufgrund verschiedener Producer überschwemmt, kann ein Consumer bei der zeitgleichen Ausgabe nicht mehr mithalten. Deswegen ergibt es in solchen Fällen Sinn, Consumer auf einzelne Partitionen aufzuteilen.
