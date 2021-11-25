@@ -10,9 +10,7 @@ Kafka
 
 `kafka-topics.sh --create --zookeeper zookeeper:2181 --replication-factor 1 --partitions 1 --topic dwh_kafka_topic_2`{{execute}}
 
-`kafka-topics.sh --list --zookeeper zookeeper:2181`{{execute}}
+`kafka-topics.sh --bootstrap-server=localhost:9092 --describe`{{execute}}
 
 `exit`{{execute}}
-
-`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --from-beginning`{{execute}}
 

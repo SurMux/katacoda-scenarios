@@ -6,7 +6,7 @@
 
 `cd /opt/kafka/bin`{{execute T1}}
 
-`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --from-beginning`{{execute T1}}
+`kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --partition 0`{{execute T1}}
 
 `^C`{{execute ctrl-seq T1}}
 
