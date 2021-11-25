@@ -5,7 +5,7 @@ Der folgende Befehl sollte dies belegen. Analog lässt sich die Datei auch im Ed
 
 `ls`{{execute}}
 
-Falls sie sich ordnungsgemäß im root Verzeichnis befindet, so können die Images erstellt werden.
+Falls sie sich ordnungsgemäß im root-Verzeichnis befindet, können die Images erstellt werden.
 
 `docker-compose -f docker-compose.yml up -d`{{execute}}
 

@@ -1,16 +1,20 @@
-# Heading for Step 3
+# Producer
 
-Python
+In Apache Kafka stellt ein Producer eine Datenquelle dar. Wie bereits dargestellt, kann ein Producer Daten an mehrere Empfänger senden.
 
-`python3 -m pip install kafka-python`{{execute}}
+Sendet ein Producer Daten an ein bestimmtes Topic ohne Spezifikation der Partionen, so werden die eingetroffenen Daten gleichmäßig über alle Topics verteilt.
 
-`touch random_data.py`{{execute}}
+Im Praxisbeispiel ist das Senden an ein Topic sowie das Senden an ausgewählte Partitionen umgesetzt, um die Trennung innerhalb eines Topics darzustellen. [1]
 
-`touch producer.py`{{execute}}
+# Datengenerator
 
-`touch consumer.py`{{execute}}
+Um eine visuelle Umsetzung von Kafka zu bieten, werden selbstverständlich Daten benötigt. Einfachheitshalber verwendet die Umsetzung einen selbstgeschriebenen Datengenerator, der zufällige json-Objekte von Künstlern und deren Lieder erstellt.
 
-`ls`{{execute}}
+Die Implementierung findet in Python statt, da es eine leichte Anbindung von Kafka besitzt.
 
+# Consumer
 
+Die Consumer sind die letzte Instanz des Data Streams. Wenn Daten benötigt werden, können sie aus ausgewählten Topics und/oder Partitionen mittels eines Consumers gezogen werden.
+
+![Apache Kafka Consumer[1]](./assets/consumer.png)
 
