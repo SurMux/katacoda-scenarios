@@ -1,6 +1,5 @@
-# Heading for Step 1
+# Docker Image aufsetzen
 
-Docker Image aufsetzen
 Für die praktische Umsetzung von Apache Kafka wurde eine Testumgebung durch ein Docker Image beritgestellt. Die benötigten Container stehen im Docker Hub bereit und die zugehörige docker-compose Datei befindet sich bereits im Verzeichnis. 
 Der folgende Befehl sollte dies belegen. Analog lässt sich die Datei auch im Editor über dem Terminal finden.
 
