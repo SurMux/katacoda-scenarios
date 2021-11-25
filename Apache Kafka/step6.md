@@ -1,5 +1,10 @@
 consumer.py
 
+
+`touch consumer.py`{{execute}}
+
+`ls`{{execute}}
+
 `consumer.py`{{open}}
 
 <pre class="file" data-filename="consumer.py" data-target="replace">

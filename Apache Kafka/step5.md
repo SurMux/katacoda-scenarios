@@ -1,6 +1,15 @@
-producer.py
+# Producer
+
+Auch hier zuerst die Datei erstellen.
+
+`touch producer.py`{{execute}}
+
+Ebenfalls im Editor zum Bearbeiten Öffnen.
 
 `producer.py`{{open}}
+
+Der Importblock des Producers besitzt zwei obligatorische Module.
+Das KafkaProducer-Modul sowie die geneate-Methode aus dem Datengenerator.
 
 <pre class="file" data-filename="producer.py" data-target="replace">
 import time
@@ -10,6 +19,9 @@ from datetime import datetime
 from random_data import generate
 from kafka import KafkaProducer
 </pre>
+
+Ein Producer wird angelegt unter Angabe des Ports und eines Serialisierers.
+Dieser wird ebenfalls angelegt und sagt aus, dass die Daten als json-Objekt behandelt werden sollen.
 
 <pre class="file" data-filename="producer.py" data-target="append">
 
@@ -23,21 +35,25 @@ producer = KafkaProducer(
 
 </pre>
 
+Die main-Methode generiert und sendet die Daten eigentlich nur jede 3 Sekunden an den Empfänger.
+Der restliche Code dient zur zufälligen Bestimmung des Empfängers, um eine Abwechsulng zu schaffen.
+Die Daten werden entweder an eine bestimmte Partition aus dem ersten Topic gesendet oder einfach an das zweite Topic. 
+
 <pre class="file" data-filename="producer.py" data-target="append">
 
 topics = ["dwh_kafka_topic_1", "dwh_kafka_topic_2"]
 
 if __name__ == '__main__':
     while True:
+        data = generate()
         random_topic = random.choice(topics)
         if random_topic == "dwh_kafka_topic_1":
             rand_part = random.randint(0, 1)
             producer.send(random_topic, data, partition = rand_part)
         else:
             producer.send(random_topic, data)
-        data = generate()
         print(f'{datetime.now()} Generiere Datensatz: {str(data)}')
 
-        time.sleep(4)      
+        time.sleep(3)      
 
 </pre>
