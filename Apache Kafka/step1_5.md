@@ -13,7 +13,7 @@ Kafka stellt noch weitere Funktionalitäten bereit, jedoch ist das Ziel dieses S
 
 # Topic
 
-![Apache Kafka Topic](./assets/kafka-arch.png)
+![Apache Kafka Topic](./assets/topic.png)
 
 Ein einzelnes Topic kann partitioniert werden. Dadurch erlaubt Kafka eine logische Trennung zwischen Daten eines gemeinsamen Topics, was eine Sortierung bereits beim Einlesen ermöglicht.
 Als Data Stream (Datenstrom) ist standardmäßig der komplette Topicinhalt gemeint, allerdings werden hier die Daten durch eine Partition als Data Stream bezeichnet, denn dadurch steigt die visuelle Aussagekraft der Abbildung.
