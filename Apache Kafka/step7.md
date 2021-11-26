@@ -25,11 +25,11 @@ Dabei muss das Topic und die Partition angegeben werden.
 
 `kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --partition 0`{{execute T1}}
 
-Folgender Befehl dient zur Unterbrechung der Datenausgabe.
+Folgender Befehl dient zur Unterbrechung der Datenausgabe. (Optional)
 
 `^C`{{execute ctrl-seq T1}}
 
-Ist die Ausgabe unterbrochen, kann die Kafka Shell hoermit verlassen werden.
+Ist die Ausgabe unterbrochen, kann die Kafka Shell hiermit verlassen werden. (Optional)
 
 `exit`{{execute ctrl-seq T1}}
 
@@ -49,7 +49,7 @@ Der folgende Befehl gibt nun noch die zweite Partition des ersten Topics aus.
 
 `kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --partition 1`{{execute T2}}
 
-Befehle zum Abbruch von Ausgabe und zum Beenden der Kafka Shell.
+Befehle zum Abbruch von Ausgabe und zum Beenden der Kafka Shell. (Optional)
 
 `^C`{{execute ctrl-seq T2}}
 
@@ -65,7 +65,7 @@ Mittels Python kann die Consumer-Datei dann gestartet werden.
 
 `python3 consumer.py`{{execute T3}}
 
-Zum Beenden des Consumers.
+Zum Beenden des Consumers. (Optional)
 
 `^C`{{execute ctrl-seq}}
 
@@ -81,7 +81,7 @@ Und wieder mit Hilfe von Python den Producer starten.
 
 Zum Beenden des Producers.
 
-`^C`{{execute ctrl-seq}}
+`^C`{{execute ctrl-seq}} (Optional)
 
 # Ergebnis
 
