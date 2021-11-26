@@ -1,31 +1,21 @@
-# New Scenario Template (Your Title Here)
+## Beschreibung
 
-This is a mostly empty template. To create your own first scenario, duplicate this in your own repo, then modify it as needed.
+Dieses Szenario schafft einen ersten Einblick ind die Funktionsweise von Apache Kafka.
 
-## Description
+Am Ende dieser Einheit entsteht ein Programm, das einen simplen Datenstrom innerhalb Kafka simuliert.
 
-2-3 sentences on what the scenario covers, illustrates, and teaches. What technology is used, and what task will the learner have accomplished by the end?
-
-Importantly, why does this matter? What can this technology, tool, or approach help you accomplish? Briefly communicate the real-world application(s) of this skill.
+Durch diesen Programmentwurf ist eine Grundlage für ein Echtzeit Kommunikationssystem in Apache Kafka geschaffen.
 
 ## Learning Objective
 
-- 3-4 bullets
-- of what you
-- will learn
+- Theoretische Grundlagen von Apache Kafka
+- Einrichtung von Apache Kafka und Zookeeper mit Hilfe von Docker
+- Implementierung von Producern und Consumern
+- Einlesen und Ausgeben von Daten in Apache Kafka
 
 ## Prerequisite Skills
 
-Define the target audience here, and list any prerequisite skills. For example:
+Dieses Szenario umfasst lediglich Grundlagen von Apache Kafka, dementsprechend ist es für Beginner mit absolut keinem Vorwissen ausgelegt.
 
-This is for software developers with prior experience using Jenkins to deploy web applications.
-
-## Table of Contents
-
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
-
-- Scenario A
-- Scenario B
-- Scenario C
-
+Kenntnisse über Docker könnten hilfreich sein, da es in diesem Szenario nicht ausgeführt wird, sind aber für eine erfolgreiche Umstzung des Programmentwurfs nicht vonnöten.
 
