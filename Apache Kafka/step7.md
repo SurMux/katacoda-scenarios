@@ -79,9 +79,9 @@ Und wieder mit Hilfe von Python den Producer starten.
 
 `python3 producer.py`{{execute T4}}
 
-Zum Beenden des Producers.
+Zum Beenden des Producers. (Optional)
 
-`^C`{{execute ctrl-seq}} (Optional)
+`^C`{{execute ctrl-seq}}
 
 # Ergebnis
 
