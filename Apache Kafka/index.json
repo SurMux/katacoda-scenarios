@@ -1,8 +1,8 @@
 {
-  "title": "New Scenario Template",
-  "description": "A simple scenario example.",
+  "title": "Datenströme in Apache Kafka",
+  "description": "Programmentwurf",
   "difficulty": "Beginner",
-  "time": "3 minutes",
+  "time": "10 minutes",
   "details": {
     "steps": [
       {
