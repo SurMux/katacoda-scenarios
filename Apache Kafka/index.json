@@ -10,6 +10,10 @@
         "text": "abstract.md"
       },
       {
+        "title": "Katacoda",
+        "text": "katacoda.md"
+      },
+      {
         "title": "Kafka Umgebung",
         "text": "step1.md"
       },
