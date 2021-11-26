@@ -10,4 +10,4 @@ Der folgende Befehl dient lediglich als Beispiel und Veranschaulichung der Funkt
 
 `printf 'Willkommen zum Katacoda Szenario Datenströme in Apache Kafka.\n\n'`{{execute}}
 
-Wurde der Befehl ausgeführt, so erscheint ein Häkchen am rechten Rand des Befehls, um einen Überblick der ausgeführten Befehle darzustellen.
+Wurde der Befehl ausgeführt, so erscheint ein Häkchen am Ende des Befehls, um einen Überblick der ausgeführten Befehle darzustellen.
