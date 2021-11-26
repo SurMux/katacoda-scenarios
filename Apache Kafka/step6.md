@@ -31,6 +31,6 @@ if __name__ == '__main__':
     )
     
     for data in consumer2:
-        print(json.loads(data.value)) 
+        print('Neuer Datensatz: ', json.loads(data.value)) 
 
 </pre>

@@ -45,12 +45,14 @@ if __name__ == '__main__':
     while True:
         data = generate()
         random_topic = random.choice(topics)
+        print(f'{datetime.now()} Generiere Datensatz: {str(data)}')
         if random_topic == "dwh_kafka_topic_1":
             rand_part = random.randint(0, 1)
             producer.send(random_topic, data, partition = rand_part)
+            print(f'Sende an Topic: {random_topic} Partition: {rand_part}')
         else:
             producer.send(random_topic, data)
-        print(f'{datetime.now()} Generiere Datensatz: {str(data)}')
+            print(f'Sende an Topic: {random_topic}')
 
         time.sleep(3)      
 
