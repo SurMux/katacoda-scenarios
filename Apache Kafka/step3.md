@@ -14,7 +14,7 @@ Die Implementierung findet in Python statt, da es eine leichte Anbindung von Kaf
 
 # Consumer
 
-Die Consumer sind die letzte Instanz des Data Streams. Wenn Daten benötigt werden, können sie aus ausgewählten Topics und/oder Partitionen mittels eines Consumers gezogen werden.
+Die Consumer sind die letzte Instanz des Datenstroms. Wenn Daten benötigt werden, können sie aus ausgewählten Topics und/oder Partitionen mittels eines Consumers gezogen werden.
 
 ![Apache Kafka Consumer[1]](./assets/consumer.png)
 

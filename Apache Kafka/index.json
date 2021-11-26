@@ -6,35 +6,39 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Abstract",
+        "text": "abstract.md"
+      },
+      {
+        "title": "Kafka Umgebung",
         "text": "step1.md"
       },
       {
-        "title": "Step 1",
+        "title": "Theoretische Grundlagen",
         "text": "step1_5.md"
       },
       {
-        "title": "Step 2",
+        "title": "Bedienung der Kafka Shell",
         "text": "step2.md"
       },
       {
-        "title": "Step 3",
+        "title": "Theoretische Grundlagen",
         "text": "step3.md"
       },
       {
-        "title": "Step 4",
+        "title": "Praktische Umsetzung",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Producer",
         "text": "step5.md"
       },
       {
-        "title": "Step 6",
+        "title": "Consumer",
         "text": "step6.md"
       },
       {
-        "title": "Step 7",
+        "title": "Verlauf eines Datenstroms",
         "text": "step7.md"
       }
     ],

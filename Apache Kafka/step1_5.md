@@ -17,7 +17,7 @@ Zookeeper ist eine ebenfalls von Apache entwickelte Software, die Konfigurations
 
 Apache Zookeeper erlaubt zusätzlich das simultane Senden sowie Abfragen von Daten eines einzelnen Topics oder einer Partition.
 
-Neuere Versionen von Apache Kafka sollenData Streams ohne die Hilfe von Zookeeper erlauben. Allerdings sind das noch Ausblicke, deswegen wurde für dieses Szenario die aktuell noch gängigere Variante, die Nutzung von Zookeeper, gewählt. [2]
+Neuere Versionen von Apache Kafka sollen Datenströme ohne die Hilfe von Zookeeper erlauben. Allerdings sind das noch Ausblicke, deswegen wurde für dieses Szenario die aktuell noch gängigere Variante, die Nutzung von Zookeeper, gewählt. [2]
 
 # Topic
 
@@ -25,7 +25,7 @@ Neuere Versionen von Apache Kafka sollenData Streams ohne die Hilfe von Zookeepe
 
 Ein einzelnes Topic kann partitioniert werden. Dadurch erlaubt Kafka eine logische Trennung zwischen Daten eines gemeinsamen Topics, was eine Sortierung bereits beim Einlesen ermöglicht.
 
-Als Data Stream (Datenstrom) ist standardmäßig der komplette Topicinhalt gemeint, allerdings werden hier die Daten durch eine Partition als Data Stream bezeichnet, denn dadurch steigt die visuelle Aussagekraft der Abbildung.
+Als Datenstrom ist standardmäßig der komplette Topicinhalt gemeint, allerdings werden hier die Daten durch eine Partition als Datenstrom bezeichnet, denn dadurch steigt die visuelle Aussagekraft der Abbildung.
 
 Bekommt ein Topic Daten zugesendet, so hängt Kafka, ähnlich wie bei einer verketteten Liste, den Datensatz an die hinterste Stelle der Partition an. Diese Daten können anschließend jederzeit von Verbrauchern abgerufen werden.
 Durch die zu sehende Indexierung können auch Datenbereiche widergegeben werden. [3]
