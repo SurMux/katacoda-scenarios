@@ -80,3 +80,12 @@ Und wieder mit Hilfe von Python den Producer starten.
 Zum Beenden des Producers.
 
 `^C`{{execute ctrl-seq}}
+
+# Ergebnis
+
+Jetzt, wo der Producer beide Topics und alle Partitionen gleichzeitig mit Daten versorgt, sind die Datenströme visuell dargestellt.
+Das Terminal mit dem Producer generiert jede 3 Sekunden einen Datensatz und schreibt den versendeten Inhalt mit Empfänger in die Konsole.
+Die Daten werden in den jeweiligen Partitionen abgespeichert, die von den Consumern angefragt werden.
+
+Die drei Consumer Terminals bekommen die Daten der abgehörten Partition bzeziehungsweise des abgehörten Topics in Echtzeit übermittelt. Die geladenen Daten werden ebenfalls im Terminal ausgegeben.
+Die Kombination aus Producer, Topic sowie Consumer mit deren visuellen Darstellung erzeugt schließlich eine Darstellung eines simplen Datenstroms in Apache Kafka. 
