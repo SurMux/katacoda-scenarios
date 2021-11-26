@@ -6,14 +6,14 @@ Am Ende dieser Einheit entsteht ein Programm, das einen simplen Datenstrom inner
 
 Durch diesen Programmentwurf ist eine Grundlage für ein Echtzeit Kommunikationssystem in Apache Kafka geschaffen.
 
-## Learning Objective
+## Lernziele
 
 - Theoretische Grundlagen von Apache Kafka
 - Einrichtung von Apache Kafka und Zookeeper mit Hilfe von Docker
 - Implementierung von Producern und Consumern
 - Einlesen und Ausgeben von Daten in Apache Kafka
 
-## Prerequisite Skills
+## Voraussetzungen
 
 Dieses Szenario umfasst lediglich Grundlagen von Apache Kafka, dementsprechend ist es für Beginner mit absolut keinem Vorwissen ausgelegt.
 

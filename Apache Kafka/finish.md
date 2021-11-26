@@ -1,20 +1,22 @@
+Glückwunsch! Das Katacoda Szenario ist nun erfolgreich abgeschlossen.
+Das Szenario entstand anlässlich der Prüfungsleistung der Data Warehouse Vorlesung an der DHBW Stuttgart.
+Das Bearbeiten dieses Szenarios sollte theoretische als auch praktische Grundlagen zum Thema Datenströme in Apache Kafka übermittelt haben.
 
-On the finish page, summarize what was just learned:
+## Übermittelte Inhalte
 
-- 3-4 bullets
-- of what you just
-- did and learned
+- Theoretische Grundlagen von Apache Kafka
+- Einrichtung von Apache Kafka und Zookeeper mit Hilfe von Docker
+- Implementierung von Producern und Consumern
+- Einlesen und Ausgeben von Daten in Apache Kafka
 
-## Table of Contents
+## Quellen
 
-If the scenario is part of a set of related scenarios, the table of contents will appear here as a bulleted list of all the scenario titles, with links to each other.
+[1] A. Buckenhofer, „Vorlesung Data Warehouse - 02 Tools“, Daimler TSS, 4. November 2021. Online abrufbar unter: https://elearning.dhbw-stuttgart.de/moodle/pluginfile.php/408259/mod_resource/content/1/Buckenhofer-DWH02-Tools.pdf. Letzter Zugriff am 25. November 2021.
 
-- Scenario A
-- Scenario B
-- Scenario C
+[2] O’Reilly Media, Inc., „Chapter 1. Meet Kafka“, 2021. Online abrufbar unter: https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch01.html. Letzter Zugriff am 24. November 2021.
 
-## Further Learning
+[3] Gavin McDonald, „Apache ZooKeeper“, 15. Januar 2021. Online abrufbar unter: https://cwiki.apache.org/confluence/display/ZOOKEEPER/Index. Letzter Zugriff am 25. November 2021.
 
-You could link to other learning resources here. What is a good next step for a learner who just completed this scenario?
+[4] O’Reilly Media, Inc., „Chapter 4. Kafka Consumers: Reading Data from Kafka“, 2021. Online abrufbar unter: https://www.oreilly.com/library/view/kafka-the-definitive/9781491936153/ch04.html. Letzter Zugriff am 25. November 2021.
 
-
+[5] Dario Radečić, „Apache Kafka in Python: How to Stream Data With Producers and Consumers“, 27. September 2021. Online abrufbar unter: https://towardsdatascience.com/apache-kafka-in-python-how-to-stream-data-with-producers-and-consumers-307e84ca8bdb. Letzter Zugriff am 18. November 2021.
