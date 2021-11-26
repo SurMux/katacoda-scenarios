@@ -4,6 +4,7 @@ Hierfür befindet sich ein Bash Terminal sowie ein Python Editor auf der rechten
 
 Alle obligatorischen Befehle sind in den folgenden Schritten eingebunden und können per Klick ausgeführt werden.
 Dies gilt auch für das Öffnen von Dateien und der Implementierung deren Programmcodes.
+
 Eine Vorraussetzung besteht. Der Programmcode beziehungsweise die Bash Befehle müssen anhand der chronologischen Reihenfolge ausgeführt werden, da einige auf den Vorgängern basieren.
 
 Der folgende Befehl dient lediglich als Beispiel und Veranschaulichung der Funktionsweise.

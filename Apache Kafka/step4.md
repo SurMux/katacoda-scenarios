@@ -20,7 +20,7 @@ Mit einem Klick auf folgende Datei wird sie im Editor geöffnet.
 
 `random_data.py`{{open}}
 
-Den Anfang machen die Importe. Keiner dieser Module ist verpflichtet, sie werden allerdings für die hier erstellten Zufallsdaten benötigt.
+Den Anfang machen die Importe. Keiner dieser Module ist verpflichtend, sie werden allerdings für die hier erstellten Zufallsdaten benötigt.
 
 <pre class="file" data-filename="random_data.py" data-target="replace">
 import datetime

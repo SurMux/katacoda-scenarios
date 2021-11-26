@@ -7,9 +7,9 @@ Und auch im Editor geöffnet werden.
 `consumer.py`{{open}}
 
 Die Consumer-Datei ist in diesem Beispiel nicht unbedingt vonnöten, da die angesammelten Daten über die Kafka Shell ausgegeben werden können.
-Allerdings kann ein Consumer, wie bereits angesprochen, Daten zusätzlich verarbeiten. Dafür wäre die ANbindung eines Consumer mittels einer Datei notwendig, was folgend auch demonstriert wird.
+Allerdings kann ein Consumer, wie bereits angesprochen, Daten zusätzlich verarbeiten. Dafür wäre die Anbindung eines Consumer mittels einer Datei notwendig, was folgend auch demonstriert wird.
 
-Folgend werden dennoch beide Wege für die Datenausgabe vorgeführt.
+Im späteren Verlauf werden dennoch beide Wege für die Datenausgabe vorgeführt.
 
 Zuerst aber wieder einmal der Importblock, der ebenfalls ein Kafka-Modul beinhaltet.
 

@@ -8,6 +8,8 @@ Sind hier alle Dateien zu finden, kann das Terminal gesäubert werden, um die ab
 
 `clear`{{execute T1}}
 
+Achten Sie darauf, dass alle Befehle auch ausgeführt werden.
+
 # Erstes Topic Partition 0
 
 Für die Testzwecke wird wieder einmal die Kafka Shel benötigt.
@@ -43,7 +45,7 @@ Wieder einmal die kafka Shell öffnen und in das bin-Verzeichnis navigieren.
 
 `cd /opt/kafka/bin`{{execute T2}}
 
-Der folgende gibt nun noch die zweite Partition des ersten Topics aus.
+Der folgende Befehl gibt nun noch die zweite Partition des ersten Topics aus.
 
 `kafka-console-consumer.sh --bootstrap-server kafka:9092 --topic dwh_kafka_topic_1 --partition 1`{{execute T2}}
 
@@ -84,8 +86,12 @@ Zum Beenden des Producers.
 # Ergebnis
 
 Jetzt, wo der Producer beide Topics und alle Partitionen gleichzeitig mit Daten versorgt, sind die Datenströme visuell dargestellt.
+
 Das Terminal mit dem Producer generiert jede 3 Sekunden einen Datensatz und schreibt den versendeten Inhalt mit Empfänger in die Konsole.
 Die Daten werden in den jeweiligen Partitionen abgespeichert, die von den Consumern angefragt werden.
 
-Die drei Consumer Terminals bekommen die Daten der abgehörten Partition bzeziehungsweise des abgehörten Topics in Echtzeit übermittelt. Die geladenen Daten werden ebenfalls im Terminal ausgegeben.
+Die drei Consumer Terminals bekommen die Daten der abgehörten Partition beziehungsweise des abgehörten Topics in Echtzeit übermittelt. Die geladenen Daten werden ebenfalls im Terminal ausgegeben.
+
+Das Terminal mit der Consumer Datei stellt zusätzlich noch die Möglichkeit der Verarbeitung von ausgelesenen Daten aus.
 Die Kombination aus Producer, Topic sowie Consumer mit deren visuellen Darstellung erzeugt schließlich eine Darstellung eines simplen Datenstroms in Apache Kafka. 
+

@@ -4,7 +4,7 @@ Um Apache Kafka zu verwalten, muss zuallererst die Kafka Shell gestartet werden.
 
 `docker exec -it kafka /bin/sh`{{execute}}
 
-Alle Kafka Shell Skripte befinden sich im Kafka bin-Ordner. Um eins auszuführen, muss erst dorthin navigiert werden.
+Alle Kafka Shell Skripte befinden sich im Kafka bin-Ordner. Um ein Skript auszuführen, muss erst dorthin navigiert werden.
 
 `cd /opt/kafka/bin`{{execute}}
 

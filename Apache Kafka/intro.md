@@ -17,5 +17,5 @@ Durch diesen Programmentwurf ist eine Grundlage für ein Echtzeit Kommunikations
 
 Dieses Szenario umfasst lediglich Grundlagen von Apache Kafka, dementsprechend ist es für Beginner mit absolut keinem Vorwissen ausgelegt.
 
-Kenntnisse über Docker könnten hilfreich sein, da es in diesem Szenario nicht ausgeführt wird, sind aber für eine erfolgreiche Umstzung des Programmentwurfs nicht vonnöten.
+Kenntnisse über Docker könnten hilfreich sein, da es in diesem Szenario nicht ausgeführt wird, sind aber für eine erfolgreiche Umsetzung des Programmentwurfs nicht vonnöten.
 

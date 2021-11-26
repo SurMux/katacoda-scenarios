@@ -7,7 +7,7 @@ Ebenfalls im Editor zum Bearbeiten Öffnen.
 `producer.py`{{open}}
 
 Der Importblock des Producers besitzt zwei obligatorische Module.
-Das KafkaProducer-Modul sowie die geneate-Methode aus dem Datengenerator.
+Das KafkaProducer-Modul sowie die generate-Methode aus dem Datengenerator.
 
 <pre class="file" data-filename="producer.py" data-target="replace">
 import time
@@ -18,8 +18,8 @@ from random_data import generate
 from kafka import KafkaProducer
 </pre>
 
-Ein Producer wird angelegt unter Angabe des Ports und eines Serialisierers.
-Dieser wird ebenfalls angelegt und sagt aus, dass die Daten als json-Objekt behandelt werden sollen.
+Ein Producer wird unter Angabe des Ports und eines Serialisierers angelegt.
+Dieser wird ebenfalls erstellt und sagt aus, dass die Daten als json-Objekt behandelt werden sollen.
 
 <pre class="file" data-filename="producer.py" data-target="append">
 
